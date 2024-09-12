@@ -1,4 +1,5 @@
 PODS:
+  - CommonTestsKit (0.0.1)
   - CommonUI (0.0.1)
   - Logger (0.0.1)
   - MacroCodableKit (0.0.1)
@@ -7,6 +8,7 @@ PODS:
     - Logger
 
 DEPENDENCIES:
+  - CommonTestsKit (from `LocalPods/CommonTestsKit`)
   - CommonUI (from `LocalPods/CommonUI`)
   - Logger (from `LocalPods/Logger`)
   - MacroCodableKit (from `.spm.pods/macros/MacroCodableKit`)
@@ -14,6 +16,8 @@ DEPENDENCIES:
   - Services (from `LocalPods/Services`)
 
 EXTERNAL SOURCES:
+  CommonTestsKit:
+    :path: LocalPods/CommonTestsKit
   CommonUI:
     :path: LocalPods/CommonUI
   Logger:
@@ -26,6 +30,7 @@ EXTERNAL SOURCES:
     :path: LocalPods/Services
 
 SPEC CHECKSUMS:
+  CommonTestsKit: 1054290eaefc6a6a2155ead286daaba60cd5971a
   CommonUI: 324efdfd5ca3ba7d6db37604ff86d760171398a2
   Logger: f90a618a457baad1c3f3ee831c723b0b76dc62a8
   MacroCodableKit: 29a3a48508c673918521ef5db6f1485db2ca75d0

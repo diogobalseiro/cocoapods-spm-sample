@@ -50,6 +50,8 @@ end
 
 target "EXTests" do
 
+  pod "CommonTestsKit", :path => "LocalPods/CommonTestsKit"
+
 end
 
 post_install do |installer|
